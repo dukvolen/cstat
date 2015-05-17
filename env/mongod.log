@@ -1,0 +1,80 @@
+2015-05-17T18:16:04.997+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-05-17T18:16:05.011+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-05-17T18:16:05.012+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-05-17T18:16:05.110+0300 I JOURNAL  [durability] Durability thread started
+2015-05-17T18:16:05.111+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-05-17T18:16:05.216+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5408 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-05-17T18:16:05.217+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-05-17T18:16:05.217+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-05-17T18:16:05.217+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-05-17T18:16:05.217+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-05-17T18:16:05.217+0300 I CONTROL  [initandlisten] allocator: system
+2015-05-17T18:16:05.217+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: true } }
+2015-05-17T18:16:05.232+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-05-17T18:21:44.710+0300 I CONTROL  Ctrl-C signal
+2015-05-17T18:21:44.710+0300 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-05-17T18:21:44.710+0300 I CONTROL  [consoleTerminate] now exiting
+2015-05-17T18:21:44.710+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-05-17T18:21:44.710+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-05-17T18:21:44.710+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-05-17T18:21:44.710+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-05-17T18:21:44.711+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-05-17T18:21:44.711+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-05-17T18:21:44.740+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-05-17T18:21:44.741+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-05-17T18:21:44.742+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-05-17T18:21:44.813+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-05-17T18:21:44.813+0300 I JOURNAL  [durability] Durability thread stopped
+2015-05-17T18:21:44.813+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-05-17T18:21:44.816+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-05-17T18:21:44.816+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-05-17T18:21:44.817+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-05-17T18:22:35.695+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-17T18:22:35.708+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-05-17T18:22:35.720+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-05-17T18:22:35.720+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-05-17T18:22:35.808+0300 I JOURNAL  [durability] Durability thread started
+2015-05-17T18:22:35.809+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-05-17T18:22:35.937+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5448 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-05-17T18:22:35.937+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-05-17T18:22:35.937+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-05-17T18:22:35.937+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-05-17T18:22:35.937+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-05-17T18:22:35.938+0300 I CONTROL  [initandlisten] allocator: system
+2015-05-17T18:22:35.938+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: false } }
+2015-05-17T18:22:35.964+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-05-17T18:23:01.872+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50694 #1 (1 connection now open)
+2015-05-17T18:31:48.901+0300 I COMMAND  [conn1] command cstat.$cmd command: listCollections { listCollections: 1.0 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:114 locks:{ Global: { acquireCount: { r: 1 } }, MMAPV1Journal: { acquireCount: { r: 1 } }, Database: { acquireCount: { R: 1 } } } 982ms
+2015-05-17T18:40:42.057+0300 I INDEX    [conn1] allocating new ns file C:/git/github/cstat/env/db\admin\admin.ns, filling with zeroes...
+2015-05-17T18:40:42.422+0300 I STORAGE  [FileAllocator] allocating new datafile C:/git/github/cstat/env/db\admin\admin.0, filling with zeroes...
+2015-05-17T18:40:42.423+0300 I STORAGE  [FileAllocator] creating directory C:/git/github/cstat/env/db\admin\_tmp
+2015-05-17T18:40:42.740+0300 I STORAGE  [FileAllocator] done allocating datafile C:/git/github/cstat/env/db\admin\admin.0, size: 64MB,  took 0.246 secs
+2015-05-17T18:40:42.891+0300 I INDEX    [conn1] build index on: admin.system.users properties: { v: 1, unique: true, key: { user: 1, db: 1 }, name: "user_1_db_1", ns: "admin.system.users" }
+2015-05-17T18:40:42.891+0300 I INDEX    [conn1] 	 building index using bulk method
+2015-05-17T18:40:42.901+0300 I INDEX    [conn1] build index done.  scanned 0 total records. 0 secs
+2015-05-17T18:40:42.911+0300 I COMMAND  [conn1] command cstat.$cmd command: createUser { createUser: "statuser", pwd: "xxx", roles: [ { role: "readWrite", db: "cstat" } ], digestPassword: false, writeConcern: { w: "majority", wtimeout: 30000.0 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { w: 4 } }, MMAPV1Journal: { acquireCount: { w: 11 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 5694 } }, Database: { acquireCount: { W: 4 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 7 } } } 1044ms
+2015-05-17T18:41:02.975+0300 I NETWORK  [conn1] end connection 127.0.0.1:50694 (0 connections now open)
+2015-05-17T18:41:12.478+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50904 #2 (1 connection now open)
+2015-05-17T18:41:21.004+0300 I NETWORK  [conn2] end connection 127.0.0.1:50904 (0 connections now open)
+2015-05-17T18:42:09.562+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:50905 #3 (1 connection now open)
+2015-05-17T18:42:10.068+0300 I COMMAND  [conn3] command cstat.$cmd command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: BinData(0, 6E2C2C6E3D73746174757365722C723D7A4E6E576C51756F6265676B70457248494167796767552F77502B73367A6936) } ntoreturn:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:179 locks:{ Global: { acquireCount: { r: 2 } }, MMAPV1Journal: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { R: 2 } } } 360ms
+2015-05-17T18:42:10.130+0300 I ACCESS   [conn3] Successfully authenticated as principal statuser on cstat
+2015-05-17T18:42:28.900+0300 I NETWORK  [conn3] end connection 127.0.0.1:50905 (0 connections now open)
+2015-05-17T18:47:13.141+0300 I CONTROL  Ctrl-C signal
+2015-05-17T18:47:13.141+0300 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-05-17T18:47:13.170+0300 I CONTROL  [consoleTerminate] now exiting
+2015-05-17T18:47:13.170+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-05-17T18:47:13.176+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-05-17T18:47:13.176+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-05-17T18:47:13.176+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-05-17T18:47:13.176+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-05-17T18:47:13.176+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-05-17T18:47:13.212+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-05-17T18:47:13.212+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-05-17T18:47:13.215+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-05-17T18:47:13.279+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-05-17T18:47:13.279+0300 I JOURNAL  [durability] Durability thread stopped
+2015-05-17T18:47:13.299+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-05-17T18:47:13.318+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-05-17T18:47:13.318+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-05-17T18:47:13.319+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
