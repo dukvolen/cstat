@@ -78,3 +78,95 @@
 2015-05-17T18:47:13.318+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
 2015-05-17T18:47:13.318+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2015-05-17T18:47:13.319+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-05-17T23:38:12.819+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-05-17T23:38:12.997+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-05-17T23:38:13.118+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-05-17T23:38:13.133+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-05-17T23:38:13.198+0300 I JOURNAL  [durability] Durability thread started
+2015-05-17T23:38:13.206+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-05-17T23:38:13.334+0300 I CONTROL  [initandlisten] MongoDB starting : pid=4732 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-05-17T23:38:13.334+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-05-17T23:38:13.334+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-05-17T23:38:13.334+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-05-17T23:38:13.335+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-05-17T23:38:13.335+0300 I CONTROL  [initandlisten] allocator: system
+2015-05-17T23:38:13.335+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: false } }
+2015-05-17T23:38:14.235+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-05-17T23:38:22.199+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52232 #1 (1 connection now open)
+2015-05-17T23:38:22.233+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52233 #2 (2 connections now open)
+2015-05-17T23:38:22.282+0300 I ACCESS   [conn2] SCRAM-SHA-1 authentication failed for statuser on test from client 127.0.0.1 ; UserNotFound Could not find user statuser@test
+2015-05-17T23:38:22.358+0300 I NETWORK  [conn2] end connection 127.0.0.1:52233 (1 connection now open)
+2015-05-17T23:38:22.358+0300 I NETWORK  [conn1] end connection 127.0.0.1:52232 (1 connection now open)
+2015-05-17T23:39:52.425+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52234 #3 (1 connection now open)
+2015-05-17T23:39:52.427+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52235 #4 (2 connections now open)
+2015-05-17T23:39:52.988+0300 I NETWORK  [conn4] end connection 127.0.0.1:52235 (1 connection now open)
+2015-05-17T23:39:52.990+0300 I NETWORK  [conn3] end connection 127.0.0.1:52234 (0 connections now open)
+2015-05-17T23:40:55.687+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52236 #5 (1 connection now open)
+2015-05-17T23:40:55.689+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52237 #6 (2 connections now open)
+2015-05-17T23:40:55.793+0300 I ACCESS   [conn6] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:40:56.246+0300 I NETWORK  [conn6] end connection 127.0.0.1:52237 (1 connection now open)
+2015-05-17T23:40:56.246+0300 I NETWORK  [conn5] end connection 127.0.0.1:52236 (0 connections now open)
+2015-05-17T23:44:26.123+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52241 #7 (1 connection now open)
+2015-05-17T23:44:26.124+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52242 #8 (2 connections now open)
+2015-05-17T23:44:26.141+0300 I ACCESS   [conn8] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:44:26.154+0300 I INDEX    [conn8] allocating new ns file C:/git/github/cstat/env/db\cstat\cstat.ns, filling with zeroes...
+2015-05-17T23:44:27.121+0300 I STORAGE  [FileAllocator] allocating new datafile C:/git/github/cstat/env/db\cstat\cstat.0, filling with zeroes...
+2015-05-17T23:44:27.122+0300 I STORAGE  [FileAllocator] creating directory C:/git/github/cstat/env/db\cstat\_tmp
+2015-05-17T23:44:27.402+0300 I STORAGE  [FileAllocator] done allocating datafile C:/git/github/cstat/env/db\cstat\cstat.0, size: 64MB,  took 0.277 secs
+2015-05-17T23:44:27.440+0300 I COMMAND  [conn8] command cstat.$cmd command: create { create: "TestCategory" } keyUpdates:0 writeConflicts:0 numYields:0 reslen:37 locks:{ Global: { acquireCount: { w: 1 } }, MMAPV1Journal: { acquireCount: { w: 6 }, acquireWaitCount: { w: 2 }, timeAcquiringMicros: { w: 778 } }, Database: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 4 } } } 1297ms
+2015-05-17T23:44:27.585+0300 I NETWORK  [conn8] end connection 127.0.0.1:52242 (1 connection now open)
+2015-05-17T23:44:27.585+0300 I NETWORK  [conn7] end connection 127.0.0.1:52241 (0 connections now open)
+2015-05-17T23:53:07.653+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52349 #9 (1 connection now open)
+2015-05-17T23:53:07.655+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52350 #10 (2 connections now open)
+2015-05-17T23:53:07.672+0300 I ACCESS   [conn10] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:53:08.219+0300 I NETWORK  [conn10] end connection 127.0.0.1:52350 (1 connection now open)
+2015-05-17T23:53:08.219+0300 I NETWORK  [conn9] end connection 127.0.0.1:52349 (0 connections now open)
+2015-05-17T23:53:45.934+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52353 #11 (1 connection now open)
+2015-05-17T23:53:45.935+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52354 #12 (2 connections now open)
+2015-05-17T23:53:45.953+0300 I ACCESS   [conn12] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:53:46.483+0300 I NETWORK  [conn12] end connection 127.0.0.1:52354 (1 connection now open)
+2015-05-17T23:53:46.485+0300 I NETWORK  [conn11] end connection 127.0.0.1:52353 (0 connections now open)
+2015-05-17T23:54:10.818+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52356 #13 (1 connection now open)
+2015-05-17T23:54:10.852+0300 I ACCESS   [conn13] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:56:58.540+0300 I COMMAND  [conn13] CMD: drop cstat.TestCategory
+2015-05-17T23:57:12.525+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52358 #14 (2 connections now open)
+2015-05-17T23:57:12.527+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52359 #15 (3 connections now open)
+2015-05-17T23:57:12.543+0300 I ACCESS   [conn15] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:57:12.566+0300 I INDEX    [conn15] build index on: cstat.TestCategory properties: { v: 1, key: { date: 1 }, name: "date_1", ns: "cstat.TestCategory" }
+2015-05-17T23:57:12.566+0300 I INDEX    [conn15] 	 building index using bulk method
+2015-05-17T23:57:12.577+0300 I INDEX    [conn15] build index done.  scanned 0 total records. 0 secs
+2015-05-17T23:57:13.082+0300 I NETWORK  [conn15] end connection 127.0.0.1:52359 (2 connections now open)
+2015-05-17T23:57:13.082+0300 I NETWORK  [conn14] end connection 127.0.0.1:52358 (1 connection now open)
+2015-05-17T23:57:58.786+0300 I COMMAND  [conn13] CMD: drop cstat.TestCategory
+2015-05-17T23:58:04.367+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52360 #16 (2 connections now open)
+2015-05-17T23:58:04.368+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52361 #17 (3 connections now open)
+2015-05-17T23:58:04.384+0300 I ACCESS   [conn17] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:58:04.392+0300 I INDEX    [conn17] build index on: cstat.TestCategory properties: { v: 1, key: { date: 1 }, name: "date_1", ns: "cstat.TestCategory" }
+2015-05-17T23:58:04.392+0300 I INDEX    [conn17] 	 building index using bulk method
+2015-05-17T23:58:04.392+0300 I INDEX    [conn17] build index done.  scanned 0 total records. 0 secs
+2015-05-17T23:58:04.929+0300 I NETWORK  [conn17] end connection 127.0.0.1:52361 (2 connections now open)
+2015-05-17T23:58:04.930+0300 I NETWORK  [conn16] end connection 127.0.0.1:52360 (2 connections now open)
+2015-05-17T23:58:13.870+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52362 #18 (2 connections now open)
+2015-05-17T23:58:13.871+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:52363 #19 (3 connections now open)
+2015-05-17T23:58:13.888+0300 I ACCESS   [conn19] Successfully authenticated as principal statuser on cstat
+2015-05-17T23:58:14.434+0300 I NETWORK  [conn19] end connection 127.0.0.1:52363 (2 connections now open)
+2015-05-17T23:58:14.434+0300 I NETWORK  [conn18] end connection 127.0.0.1:52362 (2 connections now open)
+2015-05-17T23:59:41.618+0300 I NETWORK  [conn13] end connection 127.0.0.1:52356 (0 connections now open)
+2015-05-17T23:59:46.514+0300 I CONTROL  Ctrl-C signal
+2015-05-17T23:59:46.514+0300 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-05-17T23:59:46.514+0300 I CONTROL  [consoleTerminate] now exiting
+2015-05-17T23:59:46.514+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-05-17T23:59:46.514+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-05-17T23:59:46.514+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-05-17T23:59:46.515+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-05-17T23:59:46.515+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-05-17T23:59:46.515+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-05-17T23:59:46.524+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-05-17T23:59:46.524+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-05-17T23:59:46.529+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-05-17T23:59:46.617+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-05-17T23:59:46.617+0300 I JOURNAL  [durability] Durability thread stopped
+2015-05-17T23:59:46.617+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-05-17T23:59:46.627+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-05-17T23:59:46.627+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-05-17T23:59:46.628+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
