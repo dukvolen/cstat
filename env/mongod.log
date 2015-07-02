@@ -170,3 +170,208 @@
 2015-05-17T23:59:46.627+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
 2015-05-17T23:59:46.627+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2015-05-17T23:59:46.628+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-06-18T13:09:51.838+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-06-18T13:09:51.950+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-06-18T13:09:51.984+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-06-18T13:09:51.985+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-06-18T13:09:52.016+0300 I JOURNAL  [durability] Durability thread started
+2015-06-18T13:09:52.017+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-06-18T13:09:52.085+0300 I CONTROL  [initandlisten] MongoDB starting : pid=5940 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-06-18T13:09:52.085+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-06-18T13:09:52.085+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-06-18T13:09:52.085+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-06-18T13:09:52.085+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-06-18T13:09:52.086+0300 I CONTROL  [initandlisten] allocator: system
+2015-06-18T13:09:52.086+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: false } }
+2015-06-18T13:09:53.068+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-06-18T13:10:08.244+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:62461 #1 (1 connection now open)
+2015-06-18T13:10:08.293+0300 I ACCESS   [conn1] Successfully authenticated as principal statuser on cstat
+2015-06-18T13:10:19.133+0300 I NETWORK  [conn1] end connection 127.0.0.1:62461 (0 connections now open)
+2015-06-18T13:11:06.967+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-06-18T13:11:06.967+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-06-18T13:11:06.967+0300 I CONTROL  [consoleTerminate] now exiting
+2015-06-18T13:11:06.967+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-06-18T13:11:06.967+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-06-18T13:11:06.967+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-06-18T13:11:06.967+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-06-18T13:11:06.968+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-06-18T13:11:06.968+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-06-18T13:11:06.973+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-06-18T13:11:06.973+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-06-18T13:11:06.975+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-06-18T13:11:07.070+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-06-18T13:11:07.070+0300 I JOURNAL  [durability] Durability thread stopped
+2015-06-18T13:11:07.070+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-06-18T13:11:07.081+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-06-18T13:11:07.081+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-06-18T13:11:07.082+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-06-23T20:07:56.569+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-06-23T20:07:56.659+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-06-23T20:07:56.803+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-06-23T20:07:56.826+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-06-23T20:07:56.912+0300 I JOURNAL  [durability] Durability thread started
+2015-06-23T20:07:56.920+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-06-23T20:07:57.121+0300 I CONTROL  [initandlisten] MongoDB starting : pid=4764 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-06-23T20:07:57.121+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-06-23T20:07:57.121+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-06-23T20:07:57.121+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-06-23T20:07:57.121+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-06-23T20:07:57.121+0300 I CONTROL  [initandlisten] allocator: system
+2015-06-23T20:07:57.121+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: false } }
+2015-06-23T20:07:58.100+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-06-23T20:08:01.545+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49365 #1 (1 connection now open)
+2015-06-23T20:08:01.670+0300 I ACCESS   [conn1] Successfully authenticated as principal statuser on cstat
+2015-06-23T20:08:12.981+0300 I NETWORK  [conn1] end connection 127.0.0.1:49365 (0 connections now open)
+2015-06-23T20:09:29.759+0300 I CONTROL  Ctrl-C signal
+2015-06-23T20:09:29.759+0300 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2015-06-23T20:09:29.759+0300 I CONTROL  [consoleTerminate] now exiting
+2015-06-23T20:09:29.759+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-06-23T20:09:29.759+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-06-23T20:09:29.760+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-06-23T20:09:29.760+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-06-23T20:09:29.760+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-06-23T20:09:29.760+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-06-23T20:09:29.795+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-06-23T20:09:29.795+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-06-23T20:09:29.798+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-06-23T20:09:29.862+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-06-23T20:09:29.862+0300 I JOURNAL  [durability] Durability thread stopped
+2015-06-23T20:09:29.862+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-06-23T20:09:29.867+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-06-23T20:09:29.867+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-06-23T20:09:29.868+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-06-28T22:44:56.496+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-06-28T22:44:56.521+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-06-28T22:44:56.537+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-06-28T22:44:56.538+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-06-28T22:44:56.599+0300 I JOURNAL  [durability] Durability thread started
+2015-06-28T22:44:56.600+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-06-28T22:44:56.687+0300 I CONTROL  [initandlisten] MongoDB starting : pid=4172 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-06-28T22:44:56.687+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-06-28T22:44:56.687+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-06-28T22:44:56.687+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-06-28T22:44:56.687+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-06-28T22:44:56.687+0300 I CONTROL  [initandlisten] allocator: system
+2015-06-28T22:44:56.687+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: false } }
+2015-06-28T22:44:56.719+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-06-28T22:52:57.754+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49689 #1 (1 connection now open)
+2015-06-28T22:52:57.872+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49690 #2 (2 connections now open)
+2015-06-28T22:52:58.027+0300 I COMMAND  [conn2] command cstat.$cmd command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: BinData(0, 6E2C2C6E3D73746174757365722C723D4D5441324E544D794D4459774E6A4D344E7A41774E54673D), autoAuthorize: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:171 locks:{ Global: { acquireCount: { r: 1 } }, MMAPV1Journal: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { R: 1 } } } 144ms
+2015-06-28T22:52:58.070+0300 I ACCESS   [conn2] Successfully authenticated as principal statuser on cstat
+2015-06-28T22:52:58.466+0300 I NETWORK  [conn2] end connection 127.0.0.1:49690 (1 connection now open)
+2015-06-28T22:52:58.467+0300 I NETWORK  [conn1] end connection 127.0.0.1:49689 (0 connections now open)
+2015-06-28T23:22:38.830+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-06-28T23:22:38.831+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-06-28T23:22:38.851+0300 I CONTROL  [consoleTerminate] now exiting
+2015-06-28T23:22:38.851+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-06-28T23:22:38.851+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-06-28T23:22:38.851+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-06-28T23:22:38.851+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-06-28T23:22:38.852+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-06-28T23:22:38.852+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-06-28T23:22:38.865+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-06-28T23:22:38.866+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-06-28T23:22:38.867+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-06-28T23:22:38.954+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-06-28T23:22:38.954+0300 I JOURNAL  [durability] Durability thread stopped
+2015-06-28T23:22:38.954+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-06-28T23:22:38.965+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-06-28T23:22:38.965+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-06-28T23:22:38.965+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-07-02T22:45:58.652+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-02T22:45:58.667+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-07-02T22:45:58.679+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-07-02T22:45:58.679+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-07-02T22:45:58.796+0300 I JOURNAL  [durability] Durability thread started
+2015-07-02T22:45:58.798+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-02T22:45:58.936+0300 I CONTROL  [initandlisten] MongoDB starting : pid=6556 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-07-02T22:45:58.936+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-07-02T22:45:58.936+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-02T22:45:58.936+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-02T22:45:58.936+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-02T22:45:58.936+0300 I CONTROL  [initandlisten] allocator: system
+2015-07-02T22:45:58.936+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: false } }
+2015-07-02T22:45:58.967+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-02T22:46:06.288+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56607 #1 (1 connection now open)
+2015-07-02T22:46:06.352+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56608 #2 (2 connections now open)
+2015-07-02T22:46:06.492+0300 I ACCESS   [conn2] Successfully authenticated as principal statuser on cstat
+2015-07-02T22:46:06.976+0300 I NETWORK  [conn2] end connection 127.0.0.1:56608 (1 connection now open)
+2015-07-02T22:46:06.976+0300 I NETWORK  [conn1] end connection 127.0.0.1:56607 (1 connection now open)
+2015-07-02T23:29:55.914+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56625 #3 (1 connection now open)
+2015-07-02T23:29:55.915+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56626 #4 (2 connections now open)
+2015-07-02T23:29:55.932+0300 I ACCESS   [conn4] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:29:55.935+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56627 #5 (3 connections now open)
+2015-07-02T23:29:55.936+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56628 #6 (4 connections now open)
+2015-07-02T23:29:55.951+0300 I ACCESS   [conn6] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:29:55.956+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56629 #7 (5 connections now open)
+2015-07-02T23:29:55.957+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56630 #8 (6 connections now open)
+2015-07-02T23:29:55.973+0300 I ACCESS   [conn8] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:29:56.971+0300 I NETWORK  [conn8] end connection 127.0.0.1:56630 (5 connections now open)
+2015-07-02T23:29:56.971+0300 I NETWORK  [conn7] end connection 127.0.0.1:56629 (5 connections now open)
+2015-07-02T23:29:56.971+0300 I NETWORK  [conn6] end connection 127.0.0.1:56628 (3 connections now open)
+2015-07-02T23:29:56.971+0300 I NETWORK  [conn4] end connection 127.0.0.1:56626 (3 connections now open)
+2015-07-02T23:29:56.971+0300 I NETWORK  [conn5] end connection 127.0.0.1:56627 (1 connection now open)
+2015-07-02T23:29:56.971+0300 I NETWORK  [conn3] end connection 127.0.0.1:56625 (0 connections now open)
+2015-07-02T23:32:49.802+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56631 #9 (1 connection now open)
+2015-07-02T23:32:49.804+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56632 #10 (2 connections now open)
+2015-07-02T23:32:49.820+0300 I ACCESS   [conn10] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:32:49.823+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56633 #11 (3 connections now open)
+2015-07-02T23:32:49.826+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56634 #12 (4 connections now open)
+2015-07-02T23:32:49.842+0300 I ACCESS   [conn12] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:32:49.847+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56635 #13 (5 connections now open)
+2015-07-02T23:32:49.848+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56636 #14 (6 connections now open)
+2015-07-02T23:32:49.864+0300 I ACCESS   [conn14] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:32:50.934+0300 I NETWORK  [conn14] end connection 127.0.0.1:56636 (5 connections now open)
+2015-07-02T23:32:50.934+0300 I NETWORK  [conn13] end connection 127.0.0.1:56635 (5 connections now open)
+2015-07-02T23:32:50.934+0300 I NETWORK  [conn12] end connection 127.0.0.1:56634 (3 connections now open)
+2015-07-02T23:32:50.934+0300 I NETWORK  [conn10] end connection 127.0.0.1:56632 (3 connections now open)
+2015-07-02T23:32:50.935+0300 I NETWORK  [conn11] end connection 127.0.0.1:56633 (1 connection now open)
+2015-07-02T23:32:50.935+0300 I NETWORK  [conn9] end connection 127.0.0.1:56631 (1 connection now open)
+2015-07-02T23:33:16.977+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56637 #15 (1 connection now open)
+2015-07-02T23:33:16.978+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56638 #16 (2 connections now open)
+2015-07-02T23:33:16.995+0300 I ACCESS   [conn16] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:33:16.998+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56639 #17 (3 connections now open)
+2015-07-02T23:33:16.999+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56640 #18 (4 connections now open)
+2015-07-02T23:33:17.019+0300 I ACCESS   [conn18] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:33:17.026+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56641 #19 (5 connections now open)
+2015-07-02T23:33:17.028+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56642 #20 (6 connections now open)
+2015-07-02T23:33:17.044+0300 I ACCESS   [conn20] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:33:18.144+0300 I NETWORK  [conn16] end connection 127.0.0.1:56638 (5 connections now open)
+2015-07-02T23:33:18.145+0300 I NETWORK  [conn18] end connection 127.0.0.1:56640 (5 connections now open)
+2015-07-02T23:33:18.145+0300 I NETWORK  [conn15] end connection 127.0.0.1:56637 (3 connections now open)
+2015-07-02T23:33:18.145+0300 I NETWORK  [conn17] end connection 127.0.0.1:56639 (3 connections now open)
+2015-07-02T23:33:18.145+0300 I NETWORK  [conn20] end connection 127.0.0.1:56642 (1 connection now open)
+2015-07-02T23:33:18.146+0300 I NETWORK  [conn19] end connection 127.0.0.1:56641 (0 connections now open)
+2015-07-02T23:48:37.302+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56651 #21 (1 connection now open)
+2015-07-02T23:48:37.303+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56652 #22 (2 connections now open)
+2015-07-02T23:48:37.321+0300 I ACCESS   [conn22] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:48:37.324+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56653 #23 (3 connections now open)
+2015-07-02T23:48:37.332+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56654 #24 (4 connections now open)
+2015-07-02T23:48:37.347+0300 I ACCESS   [conn24] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:48:37.353+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56655 #25 (5 connections now open)
+2015-07-02T23:48:37.356+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56656 #26 (6 connections now open)
+2015-07-02T23:48:37.375+0300 I ACCESS   [conn26] Successfully authenticated as principal statuser on cstat
+2015-07-02T23:48:38.322+0300 I NETWORK  [conn21] end connection 127.0.0.1:56651 (5 connections now open)
+2015-07-02T23:48:38.322+0300 I NETWORK  [conn24] end connection 127.0.0.1:56654 (4 connections now open)
+2015-07-02T23:48:38.322+0300 I NETWORK  [conn26] end connection 127.0.0.1:56656 (4 connections now open)
+2015-07-02T23:48:38.322+0300 I NETWORK  [conn22] end connection 127.0.0.1:56652 (5 connections now open)
+2015-07-02T23:48:38.323+0300 I NETWORK  [conn23] end connection 127.0.0.1:56653 (2 connections now open)
+2015-07-02T23:48:38.322+0300 I NETWORK  [conn25] end connection 127.0.0.1:56655 (4 connections now open)
+2015-07-02T23:49:58.519+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-07-02T23:49:58.519+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-07-02T23:49:58.548+0300 I CONTROL  [consoleTerminate] now exiting
+2015-07-02T23:49:58.548+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-07-02T23:49:58.548+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-07-02T23:49:58.548+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-07-02T23:49:58.548+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-07-02T23:49:58.549+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-07-02T23:49:58.549+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-07-02T23:49:58.554+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-07-02T23:49:58.554+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-07-02T23:49:58.556+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-07-02T23:49:58.651+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-07-02T23:49:58.651+0300 I JOURNAL  [durability] Durability thread stopped
+2015-07-02T23:49:58.651+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-07-02T23:49:58.662+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-07-02T23:49:58.662+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-07-02T23:49:58.662+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12

@@ -38,4 +38,15 @@ class DataAccess(object):
         return category
 
     #------------------------------------------------
+    def save_user_data(self, date):
+        retval = True
+        return retval
 
+    #------------------------------------------------
+    def get_user_data(self, to_date=None, limit=None):
+        retval = True
+        query = {}
+#        self.db.find()
+        return retval
+
+    #------------------------------------------------
