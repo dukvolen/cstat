@@ -375,3 +375,314 @@
 2015-07-02T23:49:58.662+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
 2015-07-02T23:49:58.662+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
 2015-07-02T23:49:58.662+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+2015-07-20T11:42:10.937+0300 I CONTROL  ***** SERVER RESTARTED *****
+2015-07-20T11:42:11.077+0300 I CONTROL  Hotfix KB2731284 or later update is not installed, will zero-out data files
+2015-07-20T11:42:11.186+0300 I JOURNAL  [initandlisten] journal dir=C:/git/github/cstat/env/db\journal
+2015-07-20T11:42:11.226+0300 I JOURNAL  [initandlisten] recover : no journal files present, no recovery needed
+2015-07-20T11:42:11.258+0300 I JOURNAL  [durability] Durability thread started
+2015-07-20T11:42:11.281+0300 I JOURNAL  [journal writer] Journal writer thread started
+2015-07-20T11:42:11.419+0300 I CONTROL  [initandlisten] MongoDB starting : pid=4108 port=27017 dbpath=C:/git/github/cstat/env/db 64-bit host=asimine-pc-note
+2015-07-20T11:42:11.419+0300 I CONTROL  [initandlisten] targetMinOS: Windows Server 2003 SP2
+2015-07-20T11:42:11.419+0300 I CONTROL  [initandlisten] db version v3.0.3
+2015-07-20T11:42:11.419+0300 I CONTROL  [initandlisten] git version: b40106b36eecd1b4407eb1ad1af6bc60593c6105
+2015-07-20T11:42:11.420+0300 I CONTROL  [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=1, build=7601, platform=2, service_pack='Service Pack 1') BOOST_LIB_VERSION=1_49
+2015-07-20T11:42:11.420+0300 I CONTROL  [initandlisten] allocator: system
+2015-07-20T11:42:11.420+0300 I CONTROL  [initandlisten] options: { config: "./mongodb.conf", net: { bindIp: "127.0.0.1", port: 27017 }, storage: { dbPath: "C:/git/github/cstat/env/db", directoryPerDB: true, journal: { enabled: true } }, systemLog: { destination: "file", logAppend: true, path: "C:/git/github/cstat/env/mongod.log", quiet: false } }
+2015-07-20T11:42:12.428+0300 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-07-20T11:42:35.438+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49623 #1 (1 connection now open)
+2015-07-20T11:42:35.439+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49624 #2 (2 connections now open)
+2015-07-20T11:42:35.566+0300 I ACCESS   [conn2] Successfully authenticated as principal statuser on cstat
+2015-07-20T11:42:35.570+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49625 #3 (3 connections now open)
+2015-07-20T11:42:35.575+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49626 #4 (4 connections now open)
+2015-07-20T11:42:35.604+0300 I ACCESS   [conn4] Successfully authenticated as principal statuser on cstat
+2015-07-20T11:42:35.608+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49627 #5 (5 connections now open)
+2015-07-20T11:42:35.609+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49628 #6 (6 connections now open)
+2015-07-20T11:42:35.626+0300 I ACCESS   [conn6] Successfully authenticated as principal statuser on cstat
+2015-07-20T11:42:36.171+0300 I NETWORK  [conn6] end connection 127.0.0.1:49628 (5 connections now open)
+2015-07-20T11:42:36.171+0300 I NETWORK  [conn1] end connection 127.0.0.1:49623 (5 connections now open)
+2015-07-20T11:42:36.171+0300 I NETWORK  [conn2] end connection 127.0.0.1:49624 (3 connections now open)
+2015-07-20T11:42:36.171+0300 I NETWORK  [conn4] end connection 127.0.0.1:49626 (5 connections now open)
+2015-07-20T11:42:36.171+0300 I NETWORK  [conn5] end connection 127.0.0.1:49627 (5 connections now open)
+2015-07-20T11:42:36.171+0300 I NETWORK  [conn3] end connection 127.0.0.1:49625 (5 connections now open)
+2015-07-20T11:45:11.576+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49631 #7 (1 connection now open)
+2015-07-20T11:45:11.578+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49632 #8 (2 connections now open)
+2015-07-20T11:45:11.595+0300 I ACCESS   [conn8] Successfully authenticated as principal statuser on cstat
+2015-07-20T11:45:11.599+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49633 #9 (3 connections now open)
+2015-07-20T11:45:11.601+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49634 #10 (4 connections now open)
+2015-07-20T11:45:11.616+0300 I ACCESS   [conn10] Successfully authenticated as principal statuser on cstat
+2015-07-20T11:45:11.620+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49635 #11 (5 connections now open)
+2015-07-20T11:45:11.622+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:49636 #12 (6 connections now open)
+2015-07-20T11:45:11.638+0300 I ACCESS   [conn12] Successfully authenticated as principal statuser on cstat
+2015-07-20T11:45:12.639+0300 I NETWORK  [conn12] end connection 127.0.0.1:49636 (5 connections now open)
+2015-07-20T11:45:12.639+0300 I NETWORK  [conn11] end connection 127.0.0.1:49635 (5 connections now open)
+2015-07-20T11:45:12.639+0300 I NETWORK  [conn10] end connection 127.0.0.1:49634 (3 connections now open)
+2015-07-20T11:45:12.640+0300 I NETWORK  [conn8] end connection 127.0.0.1:49632 (3 connections now open)
+2015-07-20T11:45:12.640+0300 I NETWORK  [conn9] end connection 127.0.0.1:49633 (2 connections now open)
+2015-07-20T11:45:12.640+0300 I NETWORK  [conn7] end connection 127.0.0.1:49631 (0 connections now open)
+2015-07-21T22:32:44.536+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56196 #13 (1 connection now open)
+2015-07-21T22:32:46.105+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56197 #14 (2 connections now open)
+2015-07-21T22:32:46.489+0300 I COMMAND  [conn14] command cstat.$cmd command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: BinData(0, 6E2C2C6E3D73746174757365722C723D4D6A45354F5467334D4455784E6A51304E7A6B774F544D3D), autoAuthorize: 1 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:171 locks:{ Global: { acquireCount: { r: 1 } }, MMAPV1Journal: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { R: 1 } } } 357ms
+2015-07-21T22:32:46.581+0300 I ACCESS   [conn14] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:32:46.623+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56198 #15 (3 connections now open)
+2015-07-21T22:32:46.626+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56199 #16 (4 connections now open)
+2015-07-21T22:32:46.658+0300 I ACCESS   [conn16] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:32:46.723+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56200 #17 (5 connections now open)
+2015-07-21T22:32:46.725+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:56201 #18 (6 connections now open)
+2015-07-21T22:32:46.749+0300 I ACCESS   [conn18] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:32:47.159+0300 I COMMAND  [conn18] command cstat.$cmd command: insert { insert: "TestCategory", ordered: true, documents: 6 } keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { w: 2 } }, MMAPV1Journal: { acquireCount: { w: 8 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { W: 2 } } } 372ms
+2015-07-21T22:32:48.393+0300 I NETWORK  [conn16] end connection 127.0.0.1:56199 (5 connections now open)
+2015-07-21T22:32:48.393+0300 I NETWORK  [conn18] end connection 127.0.0.1:56201 (5 connections now open)
+2015-07-21T22:32:48.393+0300 I NETWORK  [conn13] end connection 127.0.0.1:56196 (5 connections now open)
+2015-07-21T22:32:48.393+0300 I NETWORK  [conn14] end connection 127.0.0.1:56197 (5 connections now open)
+2015-07-21T22:32:48.393+0300 I NETWORK  [conn17] end connection 127.0.0.1:56200 (5 connections now open)
+2015-07-21T22:32:48.393+0300 I NETWORK  [conn15] end connection 127.0.0.1:56198 (5 connections now open)
+2015-07-21T22:33:21.777+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54244 #19 (1 connection now open)
+2015-07-21T22:33:21.935+0300 I ACCESS   [conn19] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:33:52.775+0300 I COMMAND  [conn19] command cstat.$cmd command: count { count: "TestCategory", query: {}, fields: {} } planSummary: COUNT keyUpdates:0 writeConflicts:0 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 1 } }, MMAPV1Journal: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { R: 1 } } } 942ms
+2015-07-21T22:33:59.269+0300 I QUERY    [conn19] query cstat.TestCategory planSummary: COLLSCAN ntoreturn:0 ntoskip:0 nscanned:0 nscannedObjects:6 keyUpdates:0 writeConflicts:0 numYields:2 nreturned:6 reslen:1241 locks:{ Global: { acquireCount: { r: 3 } }, MMAPV1Journal: { acquireCount: { r: 3 } }, Database: { acquireCount: { r: 3 } }, Collection: { acquireCount: { R: 3 } } } 315ms
+2015-07-21T22:38:52.721+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54247 #20 (2 connections now open)
+2015-07-21T22:38:52.742+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54248 #21 (3 connections now open)
+2015-07-21T22:38:52.775+0300 I ACCESS   [conn21] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:38:52.796+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54249 #22 (4 connections now open)
+2015-07-21T22:38:52.797+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54250 #23 (5 connections now open)
+2015-07-21T22:38:52.812+0300 I ACCESS   [conn23] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:38:52.816+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54251 #24 (6 connections now open)
+2015-07-21T22:38:52.817+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54252 #25 (7 connections now open)
+2015-07-21T22:38:52.853+0300 I ACCESS   [conn25] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:38:54.022+0300 I NETWORK  [conn25] end connection 127.0.0.1:54252 (6 connections now open)
+2015-07-21T22:38:54.023+0300 I NETWORK  [conn22] end connection 127.0.0.1:54249 (6 connections now open)
+2015-07-21T22:38:54.023+0300 I NETWORK  [conn23] end connection 127.0.0.1:54250 (5 connections now open)
+2015-07-21T22:38:54.022+0300 I NETWORK  [conn24] end connection 127.0.0.1:54251 (6 connections now open)
+2015-07-21T22:38:54.023+0300 I NETWORK  [conn21] end connection 127.0.0.1:54248 (2 connections now open)
+2015-07-21T22:38:54.024+0300 I NETWORK  [conn20] end connection 127.0.0.1:54247 (1 connection now open)
+2015-07-21T22:40:58.439+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54349 #26 (2 connections now open)
+2015-07-21T22:40:58.442+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54350 #27 (3 connections now open)
+2015-07-21T22:40:58.458+0300 I ACCESS   [conn27] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:40:58.481+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54351 #28 (4 connections now open)
+2015-07-21T22:40:58.483+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54352 #29 (5 connections now open)
+2015-07-21T22:40:58.501+0300 I ACCESS   [conn29] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:40:58.504+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54353 #30 (6 connections now open)
+2015-07-21T22:40:58.506+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54354 #31 (7 connections now open)
+2015-07-21T22:40:58.522+0300 I ACCESS   [conn31] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:40:59.635+0300 I NETWORK  [conn31] end connection 127.0.0.1:54354 (6 connections now open)
+2015-07-21T22:40:59.635+0300 I NETWORK  [conn28] end connection 127.0.0.1:54351 (6 connections now open)
+2015-07-21T22:40:59.635+0300 I NETWORK  [conn29] end connection 127.0.0.1:54352 (4 connections now open)
+2015-07-21T22:40:59.635+0300 I NETWORK  [conn27] end connection 127.0.0.1:54350 (4 connections now open)
+2015-07-21T22:40:59.636+0300 I NETWORK  [conn30] end connection 127.0.0.1:54353 (3 connections now open)
+2015-07-21T22:40:59.636+0300 I NETWORK  [conn26] end connection 127.0.0.1:54349 (1 connection now open)
+2015-07-21T22:42:40.840+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54494 #32 (2 connections now open)
+2015-07-21T22:42:40.841+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54495 #33 (3 connections now open)
+2015-07-21T22:42:40.857+0300 I ACCESS   [conn33] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:42:41.122+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54496 #34 (4 connections now open)
+2015-07-21T22:42:41.124+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54497 #35 (5 connections now open)
+2015-07-21T22:42:41.139+0300 I ACCESS   [conn35] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:42:41.144+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54498 #36 (6 connections now open)
+2015-07-21T22:42:41.145+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54499 #37 (7 connections now open)
+2015-07-21T22:42:41.161+0300 I ACCESS   [conn37] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:42:42.222+0300 I NETWORK  [conn37] end connection 127.0.0.1:54499 (6 connections now open)
+2015-07-21T22:42:42.223+0300 I NETWORK  [conn34] end connection 127.0.0.1:54496 (5 connections now open)
+2015-07-21T22:42:42.223+0300 I NETWORK  [conn33] end connection 127.0.0.1:54495 (4 connections now open)
+2015-07-21T22:42:42.224+0300 I NETWORK  [conn35] end connection 127.0.0.1:54497 (3 connections now open)
+2015-07-21T22:42:42.224+0300 I NETWORK  [conn36] end connection 127.0.0.1:54498 (2 connections now open)
+2015-07-21T22:42:42.224+0300 I NETWORK  [conn32] end connection 127.0.0.1:54494 (1 connection now open)
+2015-07-21T22:49:04.770+0300 I QUERY    [conn19] query cstat.TestCategory query: { datetime: { $gte: new Date(1420070400000), $lt: new Date(1420156800000) } } planSummary: COLLSCAN ntoreturn:0 ntoskip:0 nscanned:0 nscannedObjects:6 keyUpdates:0 writeConflicts:0 numYields:1 nreturned:6 reslen:1241 locks:{ Global: { acquireCount: { r: 2 } }, MMAPV1Journal: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { R: 2 } } } 491ms
+2015-07-21T22:49:28.986+0300 I QUERY    [conn19] query cstat.TestCategory query: { query: { datetime: { $gte: new Date(1420070400000), $lt: new Date(1420156800000) } }, orderby: { datetime: 1.0 } } planSummary: COLLSCAN ntoreturn:0 ntoskip:0 nscanned:0 nscannedObjects:6 scanAndOrder:1 keyUpdates:0 writeConflicts:0 numYields:3 nreturned:6 reslen:1241 locks:{ Global: { acquireCount: { r: 4 } }, MMAPV1Journal: { acquireCount: { r: 4 } }, Database: { acquireCount: { r: 4 } }, Collection: { acquireCount: { R: 4 } } } 626ms
+2015-07-21T22:50:06.271+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54503 #38 (2 connections now open)
+2015-07-21T22:50:06.324+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54504 #39 (3 connections now open)
+2015-07-21T22:50:06.508+0300 I ACCESS   [conn39] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:50:06.691+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54505 #40 (4 connections now open)
+2015-07-21T22:50:06.702+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54506 #41 (5 connections now open)
+2015-07-21T22:50:06.735+0300 I ACCESS   [conn41] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:50:06.742+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54507 #42 (6 connections now open)
+2015-07-21T22:50:06.745+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54508 #43 (7 connections now open)
+2015-07-21T22:50:06.775+0300 I ACCESS   [conn43] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:50:07.900+0300 I NETWORK  [conn43] end connection 127.0.0.1:54508 (6 connections now open)
+2015-07-21T22:50:07.901+0300 I NETWORK  [conn40] end connection 127.0.0.1:54505 (6 connections now open)
+2015-07-21T22:50:07.901+0300 I NETWORK  [conn41] end connection 127.0.0.1:54506 (4 connections now open)
+2015-07-21T22:50:07.901+0300 I NETWORK  [conn39] end connection 127.0.0.1:54504 (4 connections now open)
+2015-07-21T22:50:07.901+0300 I NETWORK  [conn42] end connection 127.0.0.1:54507 (3 connections now open)
+2015-07-21T22:50:07.902+0300 I NETWORK  [conn38] end connection 127.0.0.1:54503 (1 connection now open)
+2015-07-21T22:50:46.725+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54511 #44 (2 connections now open)
+2015-07-21T22:50:46.727+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54512 #45 (3 connections now open)
+2015-07-21T22:50:46.743+0300 I ACCESS   [conn45] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:50:46.761+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54513 #46 (4 connections now open)
+2015-07-21T22:50:46.766+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54514 #47 (5 connections now open)
+2015-07-21T22:50:46.782+0300 I ACCESS   [conn47] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:50:46.786+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54515 #48 (6 connections now open)
+2015-07-21T22:50:46.787+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54516 #49 (7 connections now open)
+2015-07-21T22:50:46.803+0300 I ACCESS   [conn49] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:50:47.916+0300 I NETWORK  [conn47] end connection 127.0.0.1:54514 (6 connections now open)
+2015-07-21T22:50:47.916+0300 I NETWORK  [conn49] end connection 127.0.0.1:54516 (6 connections now open)
+2015-07-21T22:50:47.916+0300 I NETWORK  [conn48] end connection 127.0.0.1:54515 (4 connections now open)
+2015-07-21T22:50:47.916+0300 I NETWORK  [conn46] end connection 127.0.0.1:54513 (4 connections now open)
+2015-07-21T22:50:47.917+0300 I NETWORK  [conn45] end connection 127.0.0.1:54512 (2 connections now open)
+2015-07-21T22:50:47.917+0300 I NETWORK  [conn44] end connection 127.0.0.1:54511 (2 connections now open)
+2015-07-21T22:52:06.530+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54533 #50 (2 connections now open)
+2015-07-21T22:52:06.531+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54534 #51 (3 connections now open)
+2015-07-21T22:52:06.548+0300 I ACCESS   [conn51] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:52:06.558+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54535 #52 (4 connections now open)
+2015-07-21T22:52:06.672+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54536 #53 (5 connections now open)
+2015-07-21T22:52:06.698+0300 I ACCESS   [conn53] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:52:06.709+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54537 #54 (6 connections now open)
+2015-07-21T22:52:06.711+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54538 #55 (7 connections now open)
+2015-07-21T22:52:06.737+0300 I ACCESS   [conn55] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:52:07.727+0300 I NETWORK  [conn55] end connection 127.0.0.1:54538 (6 connections now open)
+2015-07-21T22:52:07.727+0300 I NETWORK  [conn53] end connection 127.0.0.1:54536 (6 connections now open)
+2015-07-21T22:52:07.727+0300 I NETWORK  [conn54] end connection 127.0.0.1:54537 (4 connections now open)
+2015-07-21T22:52:07.728+0300 I NETWORK  [conn52] end connection 127.0.0.1:54535 (3 connections now open)
+2015-07-21T22:52:07.728+0300 I NETWORK  [conn50] end connection 127.0.0.1:54533 (3 connections now open)
+2015-07-21T22:52:07.728+0300 I NETWORK  [conn51] end connection 127.0.0.1:54534 (2 connections now open)
+2015-07-21T22:52:32.920+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54539 #56 (2 connections now open)
+2015-07-21T22:52:32.948+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54540 #57 (3 connections now open)
+2015-07-21T22:52:33.006+0300 I ACCESS   [conn57] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:52:33.025+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54541 #58 (4 connections now open)
+2015-07-21T22:52:33.027+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54542 #59 (5 connections now open)
+2015-07-21T22:52:33.107+0300 I ACCESS   [conn59] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:52:33.114+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54543 #60 (6 connections now open)
+2015-07-21T22:52:33.116+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54544 #61 (7 connections now open)
+2015-07-21T22:52:33.140+0300 I ACCESS   [conn61] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:52:33.631+0300 I NETWORK  [conn61] end connection 127.0.0.1:54544 (6 connections now open)
+2015-07-21T22:52:33.631+0300 I NETWORK  [conn60] end connection 127.0.0.1:54543 (6 connections now open)
+2015-07-21T22:52:33.631+0300 I NETWORK  [conn58] end connection 127.0.0.1:54541 (4 connections now open)
+2015-07-21T22:52:33.631+0300 I NETWORK  [conn56] end connection 127.0.0.1:54539 (3 connections now open)
+2015-07-21T22:52:33.631+0300 I NETWORK  [conn57] end connection 127.0.0.1:54540 (3 connections now open)
+2015-07-21T22:52:33.661+0300 I NETWORK  [conn59] end connection 127.0.0.1:54542 (6 connections now open)
+2015-07-21T22:55:35.086+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54548 #62 (2 connections now open)
+2015-07-21T22:55:35.124+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54549 #63 (3 connections now open)
+2015-07-21T22:55:35.198+0300 I ACCESS   [conn63] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:55:35.304+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54550 #64 (4 connections now open)
+2015-07-21T22:55:35.307+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54551 #65 (5 connections now open)
+2015-07-21T22:55:35.336+0300 I ACCESS   [conn65] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:55:35.369+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54552 #66 (6 connections now open)
+2015-07-21T22:55:35.371+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54553 #67 (7 connections now open)
+2015-07-21T22:55:35.406+0300 I ACCESS   [conn67] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:55:36.387+0300 I NETWORK  [conn67] end connection 127.0.0.1:54553 (6 connections now open)
+2015-07-21T22:55:36.387+0300 I NETWORK  [conn66] end connection 127.0.0.1:54552 (6 connections now open)
+2015-07-21T22:55:36.386+0300 I NETWORK  [conn65] end connection 127.0.0.1:54551 (6 connections now open)
+2015-07-21T22:55:36.387+0300 I NETWORK  [conn63] end connection 127.0.0.1:54549 (6 connections now open)
+2015-07-21T22:55:36.387+0300 I NETWORK  [conn64] end connection 127.0.0.1:54550 (6 connections now open)
+2015-07-21T22:55:36.414+0300 I NETWORK  [conn62] end connection 127.0.0.1:54548 (1 connection now open)
+2015-07-21T22:59:23.980+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54587 #68 (2 connections now open)
+2015-07-21T22:59:23.981+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54588 #69 (3 connections now open)
+2015-07-21T22:59:24.011+0300 I ACCESS   [conn69] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:59:24.042+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54589 #70 (4 connections now open)
+2015-07-21T22:59:24.044+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54590 #71 (5 connections now open)
+2015-07-21T22:59:24.060+0300 I ACCESS   [conn71] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:59:24.070+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54591 #72 (6 connections now open)
+2015-07-21T22:59:24.092+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54592 #73 (7 connections now open)
+2015-07-21T22:59:24.108+0300 I ACCESS   [conn73] Successfully authenticated as principal statuser on cstat
+2015-07-21T22:59:25.101+0300 I NETWORK  [conn73] end connection 127.0.0.1:54592 (6 connections now open)
+2015-07-21T22:59:25.101+0300 I NETWORK  [conn71] end connection 127.0.0.1:54590 (5 connections now open)
+2015-07-21T22:59:25.101+0300 I NETWORK  [conn70] end connection 127.0.0.1:54589 (5 connections now open)
+2015-07-21T22:59:25.102+0300 I NETWORK  [conn72] end connection 127.0.0.1:54591 (3 connections now open)
+2015-07-21T22:59:25.102+0300 I NETWORK  [conn69] end connection 127.0.0.1:54588 (3 connections now open)
+2015-07-21T22:59:25.102+0300 I NETWORK  [conn68] end connection 127.0.0.1:54587 (1 connection now open)
+2015-07-21T23:01:45.730+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54594 #74 (2 connections now open)
+2015-07-21T23:01:45.731+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54595 #75 (3 connections now open)
+2015-07-21T23:01:45.747+0300 I ACCESS   [conn75] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:01:45.756+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54596 #76 (4 connections now open)
+2015-07-21T23:01:45.757+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54597 #77 (5 connections now open)
+2015-07-21T23:01:45.774+0300 I ACCESS   [conn77] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:01:45.784+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54598 #78 (6 connections now open)
+2015-07-21T23:01:45.792+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54599 #79 (7 connections now open)
+2015-07-21T23:01:45.810+0300 I ACCESS   [conn79] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:01:46.777+0300 I NETWORK  [conn77] end connection 127.0.0.1:54597 (6 connections now open)
+2015-07-21T23:01:46.778+0300 I NETWORK  [conn78] end connection 127.0.0.1:54598 (5 connections now open)
+2015-07-21T23:01:46.779+0300 I NETWORK  [conn74] end connection 127.0.0.1:54594 (4 connections now open)
+2015-07-21T23:01:46.788+0300 I NETWORK  [conn79] end connection 127.0.0.1:54599 (3 connections now open)
+2015-07-21T23:01:46.789+0300 I NETWORK  [conn76] end connection 127.0.0.1:54596 (2 connections now open)
+2015-07-21T23:01:46.789+0300 I NETWORK  [conn75] end connection 127.0.0.1:54595 (1 connection now open)
+2015-07-21T23:03:13.828+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54600 #80 (2 connections now open)
+2015-07-21T23:03:13.831+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54601 #81 (3 connections now open)
+2015-07-21T23:03:13.848+0300 I ACCESS   [conn81] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:03:13.858+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54602 #82 (4 connections now open)
+2015-07-21T23:03:13.861+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54603 #83 (5 connections now open)
+2015-07-21T23:03:13.876+0300 I ACCESS   [conn83] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:03:13.880+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54604 #84 (6 connections now open)
+2015-07-21T23:03:13.881+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54605 #85 (7 connections now open)
+2015-07-21T23:03:13.897+0300 I ACCESS   [conn85] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:03:14.398+0300 I NETWORK  [conn85] end connection 127.0.0.1:54605 (6 connections now open)
+2015-07-21T23:03:14.398+0300 I NETWORK  [conn82] end connection 127.0.0.1:54602 (6 connections now open)
+2015-07-21T23:03:14.398+0300 I NETWORK  [conn81] end connection 127.0.0.1:54601 (4 connections now open)
+2015-07-21T23:03:14.398+0300 I NETWORK  [conn83] end connection 127.0.0.1:54603 (4 connections now open)
+2015-07-21T23:03:14.398+0300 I NETWORK  [conn84] end connection 127.0.0.1:54604 (4 connections now open)
+2015-07-21T23:03:14.399+0300 I NETWORK  [conn80] end connection 127.0.0.1:54600 (1 connection now open)
+2015-07-21T23:03:23.231+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54606 #86 (2 connections now open)
+2015-07-21T23:03:23.233+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54607 #87 (3 connections now open)
+2015-07-21T23:03:23.249+0300 I ACCESS   [conn87] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:03:23.257+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54608 #88 (4 connections now open)
+2015-07-21T23:03:23.259+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54609 #89 (5 connections now open)
+2015-07-21T23:03:23.275+0300 I ACCESS   [conn89] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:03:23.281+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54610 #90 (6 connections now open)
+2015-07-21T23:03:23.283+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54611 #91 (7 connections now open)
+2015-07-21T23:03:23.300+0300 I ACCESS   [conn91] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:03:24.297+0300 I NETWORK  [conn91] end connection 127.0.0.1:54611 (6 connections now open)
+2015-07-21T23:03:24.297+0300 I NETWORK  [conn87] end connection 127.0.0.1:54607 (6 connections now open)
+2015-07-21T23:03:24.298+0300 I NETWORK  [conn89] end connection 127.0.0.1:54609 (4 connections now open)
+2015-07-21T23:03:24.298+0300 I NETWORK  [conn90] end connection 127.0.0.1:54610 (3 connections now open)
+2015-07-21T23:03:24.298+0300 I NETWORK  [conn88] end connection 127.0.0.1:54608 (2 connections now open)
+2015-07-21T23:03:24.298+0300 I NETWORK  [conn86] end connection 127.0.0.1:54606 (1 connection now open)
+2015-07-21T23:07:53.148+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54612 #92 (2 connections now open)
+2015-07-21T23:07:53.149+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54613 #93 (3 connections now open)
+2015-07-21T23:07:53.166+0300 I ACCESS   [conn93] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:07:53.170+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54614 #94 (4 connections now open)
+2015-07-21T23:07:53.172+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54615 #95 (5 connections now open)
+2015-07-21T23:07:53.189+0300 I ACCESS   [conn95] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:07:53.193+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54616 #96 (6 connections now open)
+2015-07-21T23:07:53.195+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54617 #97 (7 connections now open)
+2015-07-21T23:07:53.213+0300 I ACCESS   [conn97] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:07:54.288+0300 I NETWORK  [conn94] end connection 127.0.0.1:54614 (6 connections now open)
+2015-07-21T23:07:54.302+0300 I NETWORK  [conn97] end connection 127.0.0.1:54617 (5 connections now open)
+2015-07-21T23:07:54.303+0300 I NETWORK  [conn95] end connection 127.0.0.1:54615 (4 connections now open)
+2015-07-21T23:07:54.303+0300 I NETWORK  [conn96] end connection 127.0.0.1:54616 (3 connections now open)
+2015-07-21T23:07:54.303+0300 I NETWORK  [conn93] end connection 127.0.0.1:54613 (2 connections now open)
+2015-07-21T23:07:54.303+0300 I NETWORK  [conn92] end connection 127.0.0.1:54612 (1 connection now open)
+2015-07-21T23:08:27.898+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54618 #98 (2 connections now open)
+2015-07-21T23:08:27.899+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54619 #99 (3 connections now open)
+2015-07-21T23:08:27.921+0300 I ACCESS   [conn99] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:08:27.937+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54620 #100 (4 connections now open)
+2015-07-21T23:08:27.944+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54621 #101 (5 connections now open)
+2015-07-21T23:08:27.971+0300 I ACCESS   [conn101] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:08:27.975+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54622 #102 (6 connections now open)
+2015-07-21T23:08:27.978+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54623 #103 (7 connections now open)
+2015-07-21T23:08:28.000+0300 I ACCESS   [conn103] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:08:29.132+0300 I NETWORK  [conn103] end connection 127.0.0.1:54623 (6 connections now open)
+2015-07-21T23:08:29.133+0300 I NETWORK  [conn101] end connection 127.0.0.1:54621 (5 connections now open)
+2015-07-21T23:08:29.133+0300 I NETWORK  [conn100] end connection 127.0.0.1:54620 (5 connections now open)
+2015-07-21T23:08:29.133+0300 I NETWORK  [conn102] end connection 127.0.0.1:54622 (4 connections now open)
+2015-07-21T23:08:29.133+0300 I NETWORK  [conn99] end connection 127.0.0.1:54619 (2 connections now open)
+2015-07-21T23:08:29.134+0300 I NETWORK  [conn98] end connection 127.0.0.1:54618 (1 connection now open)
+2015-07-21T23:09:14.128+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54624 #104 (2 connections now open)
+2015-07-21T23:09:14.129+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54625 #105 (3 connections now open)
+2015-07-21T23:09:14.145+0300 I ACCESS   [conn105] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:09:14.267+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54626 #106 (4 connections now open)
+2015-07-21T23:09:14.270+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54627 #107 (5 connections now open)
+2015-07-21T23:09:14.303+0300 I ACCESS   [conn107] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:09:14.319+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54628 #108 (6 connections now open)
+2015-07-21T23:09:14.322+0300 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:54629 #109 (7 connections now open)
+2015-07-21T23:09:14.345+0300 I ACCESS   [conn109] Successfully authenticated as principal statuser on cstat
+2015-07-21T23:09:15.472+0300 I NETWORK  [conn107] end connection 127.0.0.1:54627 (6 connections now open)
+2015-07-21T23:09:15.472+0300 I NETWORK  [conn109] end connection 127.0.0.1:54629 (6 connections now open)
+2015-07-21T23:09:15.473+0300 I NETWORK  [conn108] end connection 127.0.0.1:54628 (4 connections now open)
+2015-07-21T23:09:15.473+0300 I NETWORK  [conn106] end connection 127.0.0.1:54626 (4 connections now open)
+2015-07-21T23:09:15.473+0300 I NETWORK  [conn105] end connection 127.0.0.1:54625 (2 connections now open)
+2015-07-21T23:09:15.473+0300 I NETWORK  [conn104] end connection 127.0.0.1:54624 (2 connections now open)
+2015-07-21T23:17:58.099+0300 I NETWORK  [conn19] end connection 127.0.0.1:54244 (0 connections now open)
+2015-07-21T23:18:16.861+0300 I CONTROL  CTRL_CLOSE_EVENT signal
+2015-07-21T23:18:16.874+0300 I CONTROL  [consoleTerminate] got CTRL_CLOSE_EVENT, will terminate after current cmd ends
+2015-07-21T23:18:16.971+0300 I CONTROL  [consoleTerminate] now exiting
+2015-07-21T23:18:16.972+0300 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2015-07-21T23:18:16.978+0300 I NETWORK  [consoleTerminate] closing listening socket: 376
+2015-07-21T23:18:17.002+0300 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2015-07-21T23:18:17.002+0300 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2015-07-21T23:18:17.003+0300 I STORAGE  [consoleTerminate] shutdown: waiting for fs preallocator...
+2015-07-21T23:18:17.003+0300 I STORAGE  [consoleTerminate] shutdown: final commit...
+2015-07-21T23:18:17.049+0300 I JOURNAL  [consoleTerminate] journalCleanup...
+2015-07-21T23:18:17.089+0300 I JOURNAL  [consoleTerminate] removeJournalFiles
+2015-07-21T23:18:17.145+0300 I JOURNAL  [consoleTerminate] Terminating durability thread ...
+2015-07-21T23:18:17.236+0300 I JOURNAL  [journal writer] Journal writer thread stopped
+2015-07-21T23:18:17.258+0300 I JOURNAL  [durability] Durability thread stopped
+2015-07-21T23:18:17.267+0300 I STORAGE  [consoleTerminate] shutdown: closing all files...
+2015-07-21T23:18:17.319+0300 I STORAGE  [consoleTerminate] closeAllFiles() finished
+2015-07-21T23:18:17.328+0300 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2015-07-21T23:18:17.344+0300 I CONTROL  [consoleTerminate] dbexit:  rc: 12
