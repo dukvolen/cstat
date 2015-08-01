@@ -6,6 +6,8 @@
 #
 #------------------------------------------------
 import json
+import datetime
+from components.data_receiver.report_dumper import ReportDumper
 
 from flask import Flask, make_response, request, jsonify
 from flask.ext.httpauth import HTTPBasicAuth
@@ -34,8 +36,15 @@ def save_report():
     try:
         data = request.json
         print(json.dumps(data))
-    except:
-        print('help')
+        data['datetime'] = datetime.datetime.now()
+
+        rdumper = ReportDumper(data)
+        if(not rdumper.dump_report()):
+            print("Can't dump received report!")
+            return jsonify({'status': "error:Can't save received data!"})
+    except Exception as e:
+        print('Error: {}'.format(e.args))
+        return jsonify({'status': "error:Can't save received data!"})
     return jsonify({'status': 'ok'})
 
 #------------------------------------------------
